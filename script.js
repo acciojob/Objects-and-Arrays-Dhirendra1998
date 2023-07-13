@@ -7,10 +7,10 @@ const person = {
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 let team = players;
-let team1 = players;
+let team1 = team;
 let cap1 = person;
 window.players = players;
 window.person = person;
-window.team = players;
-window.team1 = players;
-window.cap1 = person;
+window.team = team;
+window.team1 = team1;
+window.cap1 = cap1;
